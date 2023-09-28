@@ -37,7 +37,7 @@
         char toDoList[4][1000] = {"empty", "empty", "empty", "empty"};
         const char *menu[4] = {"o - output current task list","n - create new task list","e - edit a task list","q - quit"}; // o = output current task list... n = create new task list.... e = edit a task list
         char menuSelection;
-        int whichEdit;
+        int whichEdit = 7;
         //counter variables
         int i;
         //quit? variable
@@ -49,6 +49,7 @@
 
         // loop until user quits
         while (!isQuit) {
+            int whichEdit = 7;
             //print menu first on program start
             PrintMenu(menu);
             
