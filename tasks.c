@@ -49,7 +49,7 @@
 
         // loop until user quits
         while (!isQuit) {
-            int whichEdit = 7;
+            int whichEdit = 7; // fixes bug
             //print menu first on program start
             PrintMenu(menu);
             
